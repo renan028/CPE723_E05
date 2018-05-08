@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Wed May 02 22:22:43 BRT 2018
+markTmpDer=true
+builderNum=2
+outputDir=
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=main.tex
+outputFile=Renan05.pdf
+langSpell=pt
+markDer=true
+srcDir=

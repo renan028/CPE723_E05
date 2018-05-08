@@ -1,0 +1,10 @@
+function y = f(x, data)
+y = zeros(1, size(x,1)/2);
+for i=1:population_size
+    clusters = x(i * 2 - 1:i*2, :);
+    distances = zeros(size(data, 1), 1);
+    for j=1:size(data,1)
+        distances(j) = min(sum((clusters - data(j, :)').^2));
+    end
+    y(i) = (1/size(data,1)) * sum(distances); 
+end
